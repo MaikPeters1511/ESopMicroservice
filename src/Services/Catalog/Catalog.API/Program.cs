@@ -6,4 +6,4 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline
 
-app.Run();
+await app.RunAsync();
